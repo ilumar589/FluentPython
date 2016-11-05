@@ -7,7 +7,7 @@ class FrenchDeck:
     """Deck of cards class"""
 
     ranks = [str(n) for n in range(2, 11)] + list('JQKA')
-    suits = 'spades diamonds club hearts'.split()
+    suits = 'spades diamonds clubs hearts'.split()
 
     # even though ranks and suits are class variables and are shared between all instances
     # they are still references with self.variable name
