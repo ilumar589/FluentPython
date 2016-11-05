@@ -29,3 +29,5 @@ def execute_main():
 
 
 execute_main()
+
+# fluent python where we left off => page 33
