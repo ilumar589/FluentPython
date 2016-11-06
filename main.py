@@ -1,6 +1,13 @@
 from chapter1.card_deck import FrenchDeck, Card
 from chapter1.utils import spades_high
+from chapter1.vector_n import Vector
 from random import choice
+
+
+def vector_container():
+    print(repr(Vector(1, 2)), )
+    print(Vector(1, 2) + Vector(2, 4))
+    print(Vector(3, 5) * 6)
 
 
 def card_deck_container():
@@ -25,8 +32,8 @@ def card_deck_container():
 
 
 def execute_main():
-    card_deck_container()
-
+    # card_deck_container()
+    vector_container()
 
 execute_main()
 

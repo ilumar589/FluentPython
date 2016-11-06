@@ -12,8 +12,7 @@ class FrenchDeck:
     # even though ranks and suits are class variables and are shared between all instances
     # they are still references with self.variable name
     def __init__(self):
-        self._cards = [Card(rank, suit) for rank in self.ranks
-                       for suit in self.suits]
+        self._cards = [Card(rank, suit) for (rank, suit) in zip(self.ranks, self.suits)]
 
     # implementing this method let's us use stuff like
     # len(instance) and we get the number of cards in our deck
