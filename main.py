@@ -74,4 +74,4 @@ def execute_main():
 
 execute_main()
 
-# fluent python where we left off => page 58 => Slicing
+# fluent python where we left off => page 47 => Slicing
